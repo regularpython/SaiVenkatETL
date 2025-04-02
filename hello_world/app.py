@@ -1,15 +1,8 @@
-import json
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=' ')
+        a, b = b, a + b
 
-# import requests
-
-
-def lambda_handler(event, context):
-    print('Hi This is Venky')
-
-    return {
-        "statusCode": 200,
-        "body": json.dumps({
-            "message": "hello world",
-            # "location": ip.text.replace("\n", "")
-        }),
-    }
+# Example: print the first 10 Fibonacci numbers
+fibonacci(10)
