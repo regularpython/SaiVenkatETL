@@ -8,5 +8,6 @@ handler = "hello_world.app.lambda_handler"
 manifest_hash = ""
 packagetype = "Zip"
 functions = ["HelloWorldFunction"]
+source_hash = "060326463b80e7cb7902f6e456a5eb845e7a5ed0d5edbfa559da452ef270b37c"
 
 [layer_build_definitions]
